@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: #d1f3e7;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #bfc2ca;
+  box-shadow: 5px 15px 15px #bfc2ca50;
+  width: 850px;
+  height: 800px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex: 25%;
+  background-color: white;
+  height: 180px;
+  box-sizing: border-box;
+  border: 10px solid #bfc2ca;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card.open {
+  background-color: blue;
+}
+
+.card.incorrect {
+  background-color: red;
+}
+
+.card.correct {
+  background-color: green;
+}
